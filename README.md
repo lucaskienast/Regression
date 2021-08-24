@@ -12,6 +12,8 @@ Overview of common and advanced regression techniques and libraries. Split into:
 
 Alam, M. (2021) A checklist for linear regression. Available at: https://towardsdatascience.com/a-checklist-for-linear-regression-bd7b3e47ea91 (Accessed: 24 August 2021)
 
+Bhandari, A. (2020) Feature Scaling for Machine Learning: Understanding the Differnece Between Normalization vs. Standardization. Available at: https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/ (Accessed: 24 August 2021)
+
 Gurucharan, M. (2020) Machine Learning Basics: Simple Linear Regression. Available at: https://towardsdatascience.com/machine-learning-basics-simple-linear-regression-bc83c01baa07 (Accessed: 24 August 2021)
 
 Gurucharan, M. (2020) Machine Learning Basics: Multiple Linear Regression. Available at: https://towardsdatascience.com/machine-learning-basics-multiple-linear-regression-9c70f796e5e3 (Accessed: 24 August 2021)
