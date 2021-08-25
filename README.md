@@ -7,6 +7,12 @@ Overview of common and advanced regression techniques and libraries. Split into:
 - Decision Tree Regression
 - Random Forest Regression
 
+## Linear Regression
+Linear regression, at it’s core, is a way of calculating the relationship between two variables. It assumes that there’s a direct correlation between the two variables, and that this relationship can be represented with a straight line. Linear regression creates a linear mathematical relationships between these two variables. It enables calculation predicting the dependent variable if the dependent variable is known.
+
+## Polynomial Regression
+Polynomial Regression is a form of regression analysis in which the relationship between the independent variables and dependent variables are modeled in the nth degree polynomial. Polynomial Regression models are usually fit with the method of least squares.The least square method minimizes the variance of the coefficients,under the Gauss Markov Theorem. Polynomial Regression is a special case of Linear Regression where we fit the polynomial equation on the data with a curvilinear relationship between the dependent and independent variables.
+
 ## References
 
 Abhigyan (2020) Understanding Polynomial Regression. Available at: https://medium.com/analytics-vidhya/understanding-polynomial-regression-5ac25b970e18 (Accessed: 25 August 2021)
@@ -16,6 +22,8 @@ Alam, M. (2021) A checklist for linear regression. Available at: https://towards
 Allison, P. (2012) When Can You Safely Ignore Multicollinearity? Available at: https://statisticalhorizons.com/multicollinearity (Accessed: 24 August 2021)
 
 Bhandari, A. (2020) Feature Scaling for Machine Learning: Understanding the Differnece Between Normalization vs. Standardization. Available at: https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/ (Accessed: 24 August 2021)
+
+Grant, P. (2019) Understanding the Fundamentals of Linear Regression. Available at: https://towardsdatascience.com/understanding-the-fundamentals-of-linear-regression-7e64afd614e1 (Accessed: 25 August 2021)
 
 Gurucharan, M. (2020) Machine Learning Basics: Simple Linear Regression. Available at: https://towardsdatascience.com/machine-learning-basics-simple-linear-regression-bc83c01baa07 (Accessed: 24 August 2021)
 
