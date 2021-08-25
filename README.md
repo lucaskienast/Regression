@@ -36,6 +36,11 @@ In machine learning, Support Vector Machines are supervised learning models with
 
 No model assumptions to validate for SVM.
 
+## Decision Tree Regression
+Decision Tree is one of the most commonly used, practical approaches for supervised learning. It can be used to solve both Regression and Classification tasks with the latter being put more into practical application. It is a tree-structured classifier with three types of nodes. The Root Node is the initial node which represents the entire sample and may get split further into further nodes. The Interior Nodes represent the features of a data set and the branches represent the decision rules. Finally, the Leaf Nodes represent the outcome. This algorithm is very useful for solving decision-related problems. With a particular data point, it is run completely through the entirely tree by answering True/False questions till it reaches the leaf node. The final prediction is the average of the value of the dependent variable in that particular leaf node. Through multiple iterations, the Tree is able to predict a proper value for the data point. 
+
+Decision trees have an advantage that it is easy to understand, lesser data cleaning is required, non-linearity does not affect the model’s performance and the number of hyper-parameters to be tuned is almost null. However, it may have an over-fitting problem, which can be resolved using the Random Forest algorithm.
+
 ## References
 
 Abhigyan (2020) Understanding Polynomial Regression. Available at: https://medium.com/analytics-vidhya/understanding-polynomial-regression-5ac25b970e18 (Accessed: 25 August 2021)
