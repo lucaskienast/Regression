@@ -12,11 +12,11 @@ Linear regression, at it’s core, is a way of calculating the relationship betw
 
 Assumptions:
 
-— A linear relationship is assumed between the dependent variable and the independent variables.
-— Regression residuals must be normally distributed and the mean be 0.
-— The residuals are homoscedastic.
-— Absence of Multicollinearity is expected in the model, meaning that independent variables are not too highly correlated.
-— No Autocorrelation of the residuals.
+- A linear relationship is assumed between the dependent variable and the independent variables.
+- Regression residuals must be normally distributed and the mean be 0.
+- The residuals are homoscedastic.
+- Absence of Multicollinearity is expected in the model, meaning that independent variables are not too highly correlated.
+- No Autocorrelation of the residuals.
 
 ## Polynomial Regression
 Polynomial Regression is a form of regression analysis in which the relationship between the independent variables and dependent variables are modeled in the nth degree polynomial. Polynomial Regression models are usually fit with the method of least squares.The least square method minimizes the variance of the coefficients,under the Gauss Markov Theorem. Polynomial Regression is a special case of Linear Regression where we fit the polynomial equation on the data with a curvilinear relationship between the dependent and independent variables.
