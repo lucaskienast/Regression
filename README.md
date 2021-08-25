@@ -10,8 +10,23 @@ Overview of common and advanced regression techniques and libraries. Split into:
 ## Linear Regression
 Linear regression, at it’s core, is a way of calculating the relationship between two variables. It assumes that there’s a direct correlation between the two variables, and that this relationship can be represented with a straight line. Linear regression creates a linear mathematical relationships between these two variables. It enables calculation predicting the dependent variable if the dependent variable is known.
 
+Assumptions:
+
+— A linear relationship is assumed between the dependent variable and the independent variables.
+— Regression residuals must be normally distributed and the mean be 0.
+— The residuals are homoscedastic.
+— Absence of Multicollinearity is expected in the model, meaning that independent variables are not too highly correlated.
+— No Autocorrelation of the residuals.
+
 ## Polynomial Regression
 Polynomial Regression is a form of regression analysis in which the relationship between the independent variables and dependent variables are modeled in the nth degree polynomial. Polynomial Regression models are usually fit with the method of least squares.The least square method minimizes the variance of the coefficients,under the Gauss Markov Theorem. Polynomial Regression is a special case of Linear Regression where we fit the polynomial equation on the data with a curvilinear relationship between the dependent and independent variables.
+
+Assumptions:
+
+- The behavior of a dependent variable can be explained by a linear, or curvilinear, additive relationship between the dependent variable and a set of k independent variables (xi, i=1 to k).
+- The relationship between the dependent variable and any independent variable is linear or curvilinear (specifically polynomial).
+- The independent variables are independent of each other.
+- The errors are independent, normally distributed with mean zero and a constant variance (OLS).
 
 ## References
 
@@ -32,6 +47,8 @@ Gurucharan, M. (2020) Machine Learning Basics: Multiple Linear Regression. Avail
 Gurucharan, M. (2020) Machine Learning Basics: Polynomial Regression. Available at: https://towardsdatascience.com/machine-learning-basics-polynomial-regression-3f9dd30223d1 (Accessed: 25 August 2021)
 
 Korstanje, J. (2021) Assumptions of linear regression. Available at: https://towardsdatascience.com/assumptions-of-linear-regression-fdb71ebeaa8b (Accessed: 24 August 2021)
+
+Samaha, B. (2020) My Guide to Understanding the Assumptions of Ordinary Least Squares Regression. Available at: https://medium.com/swlh/my-guide-to-understanding-the-assumptions-of-ordinary-least-squares-regressions-b180f81801a4 (Accessed: 25 August 2021)
 
 Statistics Solutions (2021) Assumptions of Linear Regression. Available at: https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/assumptions-of-linear-regression/?__cf_chl_jschl_tk__=pmd_bNrV..YslZ4pi_s86JwRjx.e9G4YNcqvTDBQakCk8kI-1629803479-0-gqNtZGzNAjujcnBszQiR (Accessed: 24 August 2021)
 
