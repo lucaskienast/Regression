@@ -4,7 +4,7 @@ Overview of common and advanced regression techniques and libraries. Split into:
 - Linear Regression
 - Polynomial Regression
 - Support Vector Regression
-- Random Forest Regression
+- Random Forest (Decision Tree) Regression
 - Stepwise Regression
 - Ridge Regression
 - Lasso Regression
