@@ -4,8 +4,11 @@ Overview of common and advanced regression techniques and libraries. Split into:
 - Linear Regression
 - Polynomial Linear Regression
 - Support Vector Regression
-- Decision Tree Regression
 - Random Forest Regression
+- Stepwise Regression
+- Ridge Regression
+- Lasso Regression
+- ElasticNet Regression
 
 ## Linear Regression
 Linear regression, at it’s core, is a way of calculating the relationship between two variables. It assumes that there’s a direct correlation between the two variables, and that this relationship can be represented with a straight line. Linear regression creates a linear mathematical relationships between these two variables. It enables calculation predicting the dependent variable if the dependent variable is known.
