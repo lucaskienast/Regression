@@ -47,11 +47,13 @@ Chatterjee, D. (2019) All the Annoying Assumptions. Available at: https://toward
 
 Grant, P. (2019) Understanding the Fundamentals of Linear Regression. Available at: https://towardsdatascience.com/understanding-the-fundamentals-of-linear-regression-7e64afd614e1 (Accessed: 25 August 2021)
 
-Gurucharan, M. (2020) Machine Learning Basics: Simple Linear Regression. Available at: https://towardsdatascience.com/machine-learning-basics-simple-linear-regression-bc83c01baa07 (Accessed: 24 August 2021)
+Gurucharan, M. (2020) Machine Learning Basics: Decision Tree Regression. Available at: https://towardsdatascience.com/machine-learning-basics-decision-tree-regression-1d73ea003fda (Accessed: 25 August 2021)
 
 Gurucharan, M. (2020) Machine Learning Basics: Multiple Linear Regression. Available at: https://towardsdatascience.com/machine-learning-basics-multiple-linear-regression-9c70f796e5e3 (Accessed: 24 August 2021)
 
 Gurucharan, M. (2020) Machine Learning Basics: Polynomial Regression. Available at: https://towardsdatascience.com/machine-learning-basics-polynomial-regression-3f9dd30223d1 (Accessed: 25 August 2021)
+
+Gurucharan, M. (2020) Machine Learning Basics: Simple Linear Regression. Available at: https://towardsdatascience.com/machine-learning-basics-simple-linear-regression-bc83c01baa07 (Accessed: 24 August 2021)
 
 Jain, A. (2016) A Complete Tutorial on Ridge and Lasso Regression in Python. Available at: https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/ (Accessed: 25 August 2021)
 
