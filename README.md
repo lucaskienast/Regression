@@ -57,6 +57,8 @@ Raj, A. (2020) Unlocking the True Power of Support Vector Regression. Available 
 
 Samaha, B. (2020) My Guide to Understanding the Assumptions of Ordinary Least Squares Regression. Available at: https://medium.com/swlh/my-guide-to-understanding-the-assumptions-of-ordinary-least-squares-regressions-b180f81801a4 (Accessed: 25 August 2021)
 
+Sethi, A. (2020) Support Vector Regression Tutorial for Machine Learning. Available at: https://www.analyticsvidhya.com/blog/2020/03/support-vector-regression-tutorial-for-machine-learning/ (Accessed: 25 August 2021)
+
 Statistics Solutions (2021) Assumptions of Linear Regression. Available at: https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/assumptions-of-linear-regression/?__cf_chl_jschl_tk__=pmd_bNrV..YslZ4pi_s86JwRjx.e9G4YNcqvTDBQakCk8kI-1629803479-0-gqNtZGzNAjujcnBszQiR (Accessed: 24 August 2021)
 
 Tan, T. (2020) Back to Basics: Assumptions of Common Machine Learning Models. Available at: https://towardsdatascience.com/back-to-basics-assumptions-of-common-machine-learning-models-e43c02325535 (Accessed: 25 August 2021)
