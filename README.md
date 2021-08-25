@@ -41,6 +41,10 @@ Decision Tree is one of the most commonly used, practical approaches for supervi
 
 Decision trees have an advantage that it is easy to understand, lesser data cleaning is required, non-linearity does not affect the model’s performance and the number of hyper-parameters to be tuned is almost null. However, it may have an over-fitting problem, which can be resolved using the Random Forest algorithm.
 
+## Random Forest Regression
+Random Forest is also a “Tree”-based algorithm that uses the qualities of multiple Decision Trees for making decisions. The term ‘Random’ is due to the fact that this algorithm is a forest of ‘Randomly created Decision Trees’. The Decision Tree algorithm has a major disadvantage in that it causes over-fitting. This problem can be limited by implementing the Random Forest Regression in place of the Decision Tree Regression. To summarize in short, The Random Forest Algorithm merges the output of multiple Decision Trees to generate the final output.
+
+
 ## References
 
 Abhigyan (2020) Understanding Polynomial Regression. Available at: https://medium.com/analytics-vidhya/understanding-polynomial-regression-5ac25b970e18 (Accessed: 25 August 2021)
@@ -60,6 +64,8 @@ Gurucharan, M. (2020) Machine Learning Basics: Decision Tree Regression. Availab
 Gurucharan, M. (2020) Machine Learning Basics: Multiple Linear Regression. Available at: https://towardsdatascience.com/machine-learning-basics-multiple-linear-regression-9c70f796e5e3 (Accessed: 24 August 2021)
 
 Gurucharan, M. (2020) Machine Learning Basics: Polynomial Regression. Available at: https://towardsdatascience.com/machine-learning-basics-polynomial-regression-3f9dd30223d1 (Accessed: 25 August 2021)
+
+Gurucharan, M. (2020) Machine Learning Basics: Random Forest Regression. Available at: https://towardsdatascience.com/machine-learning-basics-random-forest-regression-be3e1e3bb91a (Accessed: 25 August 2021)
 
 Gurucharan, M. (2020) Machine Learning Basics: Simple Linear Regression. Available at: https://towardsdatascience.com/machine-learning-basics-simple-linear-regression-bc83c01baa07 (Accessed: 24 August 2021)
 
