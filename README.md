@@ -53,9 +53,13 @@ Gurucharan, M. (2020) Machine Learning Basics: Multiple Linear Regression. Avail
 
 Gurucharan, M. (2020) Machine Learning Basics: Polynomial Regression. Available at: https://towardsdatascience.com/machine-learning-basics-polynomial-regression-3f9dd30223d1 (Accessed: 25 August 2021)
 
+Jain, A. (2016) A Complete Tutorial on Ridge and Lasso Regression in Python. Available at: https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/ (Accessed: 25 August 2021)
+
 Korstanje, J. (2021) Assumptions of linear regression. Available at: https://towardsdatascience.com/assumptions-of-linear-regression-fdb71ebeaa8b (Accessed: 24 August 2021)
 
 Raj, A. (2020) Unlocking the True Power of Support Vector Regression. Available at: https://towardsdatascience.com/unlocking-the-true-power-of-support-vector-regression-847fd123a4a0 (Accessed: 25 August 2021)
+
+Ray, S. (2015) 7 Regression Techniques you should know. Available at: https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/?utm_source=blog&utm_medium=RideandLassoRegressionarticle (Accessed: 25 August 2021)
 
 Samaha, B. (2020) My Guide to Understanding the Assumptions of Ordinary Least Squares Regression. Available at: https://medium.com/swlh/my-guide-to-understanding-the-assumptions-of-ordinary-least-squares-regressions-b180f81801a4 (Accessed: 25 August 2021)
 
