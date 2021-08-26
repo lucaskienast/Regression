@@ -49,7 +49,6 @@ Methods:
 - Ridge Regression
 - LASSO Regression
 - Elastic Net Regression
-- Partial Least Squares Regression
 
 Generally, lasso might perform better in a situation where some of the predictors have large coefficients, and the remaining predictors have very small coefficients. Ridge regression will perform better when the outcome is a function of many predictors, all with coefficients of roughly equal size. Cross-validation methods can be used for identifying which of these two techniques is better on a particular data set.
 
