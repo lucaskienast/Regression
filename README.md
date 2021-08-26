@@ -115,6 +115,8 @@ Karkera, K. (2017) Regression Models with multiple target variables. Available a
 
 Korstanje, J. (2021) Assumptions of linear regression. Available at: https://towardsdatascience.com/assumptions-of-linear-regression-fdb71ebeaa8b (Accessed: 24 August 2021)
 
+Krohn, J. (2021) Mathematical Foundations of Machine Learning. Available at: https://github.com/jonkrohn/ML-foundations (Accessed: 26 August 2021)
+
 Kumar, R. (2021) Evaluating Performance - Regression. Available at: https://medium.com/nerd-for-tech/evaluating-performance-regression-d4ef40986402 (Accessed: 26 August 2021)
 
 Patel, D. (2021) Ridge & Lasso Regression. Available at: https://deeppatel23.medium.com/ridge-lasso-regression-4272a1990aea (Accessed: 26 August 2021)
