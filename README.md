@@ -6,7 +6,7 @@ Overview of common and advanced regression techniques and libraries. Split into:
 - Support Vector Regression
 - Random Forest (Decision Tree) Regression
 - Stepwise Regression
-- Penalized (Ridge, Lasso, Elastic Net) Regression
+- Regularized/Penalized (Ridge, Lasso, Elastic Net) Regression
 
 ## Linear Regression
 Linear regression, at it’s core, is a way of calculating the relationship between two variables. It assumes that there’s a direct correlation between the two variables, and that this relationship can be represented with a straight line. Linear regression creates a linear mathematical relationships between these two variables. It enables calculation predicting the dependent variable if the dependent variable is known.
@@ -42,7 +42,7 @@ Decision trees have an advantage that it is easy to understand, lesser data clea
 ## Random Forest Regression
 Random Forest is also a “Tree”-based algorithm that uses the qualities of multiple Decision Trees for making decisions. The term ‘Random’ is due to the fact that this algorithm is a forest of ‘Randomly created Decision Trees’. The Decision Tree algorithm has a major disadvantage in that it causes over-fitting. This problem can be limited by implementing the Random Forest Regression in place of the Decision Tree Regression. To summarize in short, The Random Forest Algorithm merges the output of multiple Decision Trees to generate the final output.
 
-## Penalized Regression
+## Regularized/Penalized Regression
 The standard linear model (or the ordinary least squares method) performs poorly in a situation, where you have a large multivariate data set containing a number of variables superior to the number of samples. A better alternative is the penalized regression allowing to create a linear regression model that is penalized, for having too many variables in the model, by adding a constraint in the equation. This is also known as shrinkage or regularization methods. The consequence of imposing this penalty, is to reduce (i.e. shrink) the coefficient values towards zero. This allows the less contributive variables to have a coefficient close to zero or equal zero. Note that, the shrinkage requires the selection of a tuning parameter (lambda) that determines the amount of shrinkage.
 
 Methods:
