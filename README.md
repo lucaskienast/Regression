@@ -6,6 +6,7 @@ Overview of common and advanced regression techniques and libraries. Split into:
 - Support Vector Regression
 - Random Forest (Decision Tree) Regression
 - Regularized/Penalized Regression
+- Multi Target Regression
 
 ## Linear Regression
 Linear regression, at it’s core, is a way of calculating the relationship between two variables. It assumes that there’s a direct correlation between the two variables, and that this relationship can be represented with a straight line. Linear regression creates a linear mathematical relationships between these two variables. It enables calculation predicting the dependent variable if the dependent variable is known.
@@ -67,6 +68,9 @@ Lasso stands for Least Absolute Shrinkage and Selection Operator. It shrinks the
 ## Elastic Net Regression
 Elastic Net produces a regression model that is penalized with both the L1-norm and L2-norm. The consequence of this is to effectively shrink coefficients (like in ridge regression) and to set some coefficients to zero (as in LASSO).
 
+## Multi Target Regression
+Multi Target (or Multi Output) regression are regression problems that involve predicting two or more numerical values given an input example. An example might be to predict a coordinate given an input, e.g. predicting x and y values. Another example would be multi-step time series forecasting that involves predicting multiple future time series of a given variable. Many machine learning algorithms are designed for predicting a single numeric value, referred to simply as regression. Some algorithms do support multioutput regression inherently, such as linear regression and decision trees. There are also special workaround models that can be used to wrap and use those algorithms that do not natively support predicting multiple outputs.
+
 ## References
 
 Abhigyan (2020) Understanding Polynomial Regression. Available at: https://medium.com/analytics-vidhya/understanding-polynomial-regression-5ac25b970e18 (Accessed: 25 August 2021)
@@ -80,6 +84,8 @@ Bex, T. (2021) Intro to Regularization With Ridge And Lasso Regression with Skle
 Bhandari, A. (2020) Feature Scaling for Machine Learning: Understanding the Differnece Between Normalization vs. Standardization. Available at: https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/ (Accessed: 24 August 2021)
 
 Brownlee, J. (2020) How to Develop Elastic Net Regression Models in Python. Available at: https://machinelearningmastery.com/elastic-net-regression-in-python/ (Accessed: 26 August 2021)
+
+Brownlee, J. (2021) How to Develop Multi-Output Regression Models in Python. Available at: https://machinelearningmastery.com/multi-output-regression-models-with-python/ (Accessed: 26 August 2021)
 
 Brownlee, J. (2021) How to Develop LASSO Regression Models in Python. Available at: https://machinelearningmastery.com/lasso-regression-with-python/ (Accessed: 26 August 2021)
 
@@ -104,6 +110,8 @@ Gurucharan, M. (2020) Machine Learning Basics: Simple Linear Regression. Availab
 Gurucharan, M. (2020) Machine Learning Basics: Support Vector Regression. Available at: https://towardsdatascience.com/machine-learning-basics-support-vector-regression-660306ac5226 (Accessed: 26 August 2021)
 
 Jain, A. (2016) A Complete Tutorial on Ridge and Lasso Regression in Python. Available at: https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/ (Accessed: 25 August 2021)
+
+Karkera, K. (2017) Regression Models with multiple target variables. Available at: https://towardsdatascience.com/regression-models-with-multiple-target-variables-8baa75aacd (Accessed: 26 August 2021)
 
 Korstanje, J. (2021) Assumptions of linear regression. Available at: https://towardsdatascience.com/assumptions-of-linear-regression-fdb71ebeaa8b (Accessed: 24 August 2021)
 
