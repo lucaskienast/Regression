@@ -73,6 +73,8 @@ Multioutput (or Multitarget) regression are regression problems that involve pre
 
 ## References
 
+Aakash, N. (2018) PyTorch basics - Linear Regression from scratch. Available at: https://www.kaggle.com/aakashns/pytorch-basics-linear-regression-from-scratch (Accessed: 26 August 2021)
+
 Abhigyan (2020) Understanding Polynomial Regression. Available at: https://medium.com/analytics-vidhya/understanding-polynomial-regression-5ac25b970e18 (Accessed: 25 August 2021)
 
 Alam, M. (2021) A checklist for linear regression. Available at: https://towardsdatascience.com/a-checklist-for-linear-regression-bd7b3e47ea91 (Accessed: 24 August 2021)
