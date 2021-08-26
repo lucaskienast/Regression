@@ -55,6 +55,12 @@ Allison, P. (2012) When Can You Safely Ignore Multicollinearity? Available at: h
 
 Bhandari, A. (2020) Feature Scaling for Machine Learning: Understanding the Differnece Between Normalization vs. Standardization. Available at: https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/ (Accessed: 24 August 2021)
 
+Brownlee, J. (2020) How to Develop Elastic Net Regression Models in Python. Available at: https://machinelearningmastery.com/elastic-net-regression-in-python/ (Accessed: 26 August 2021)
+
+Brownlee, J. (2021) How to Develop LASSO Regression Models in Python. Available at: https://machinelearningmastery.com/lasso-regression-with-python/ (Accessed: 26 August 2021)
+
+Brownlee, J. (2020) How to Develop Ridge Regression Models in Python. Available at: https://machinelearningmastery.com/ridge-regression-with-python/ (Accessed: 26 August 2021)
+
 Chatterjee, D. (2019) All the Annoying Assumptions. Available at: https://towardsdatascience.com/all-the-annoying-assumptions-31b55df246c3 (Accessed: 25 August 2025)
 
 Grant, P. (2019) Understanding the Fundamentals of Linear Regression. Available at: https://towardsdatascience.com/understanding-the-fundamentals-of-linear-regression-7e64afd614e1 (Accessed: 25 August 2021)
@@ -68,6 +74,8 @@ Gurucharan, M. (2020) Machine Learning Basics: Polynomial Regression. Available 
 Gurucharan, M. (2020) Machine Learning Basics: Random Forest Regression. Available at: https://towardsdatascience.com/machine-learning-basics-random-forest-regression-be3e1e3bb91a (Accessed: 25 August 2021)
 
 Gurucharan, M. (2020) Machine Learning Basics: Simple Linear Regression. Available at: https://towardsdatascience.com/machine-learning-basics-simple-linear-regression-bc83c01baa07 (Accessed: 24 August 2021)
+
+Gurucharan, M. (2020) Machine Learning Basics: Support Vector Regression. Available at: https://towardsdatascience.com/machine-learning-basics-support-vector-regression-660306ac5226 (Accessed: 26 August 2021)
 
 Jain, A. (2016) A Complete Tutorial on Ridge and Lasso Regression in Python. Available at: https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/ (Accessed: 25 August 2021)
 
