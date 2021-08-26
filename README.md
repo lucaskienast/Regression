@@ -73,6 +73,8 @@ Jain, A. (2016) A Complete Tutorial on Ridge and Lasso Regression in Python. Ava
 
 Korstanje, J. (2021) Assumptions of linear regression. Available at: https://towardsdatascience.com/assumptions-of-linear-regression-fdb71ebeaa8b (Accessed: 24 August 2021)
 
+Kumar, R. (2021) Evaluating Performance - Regression. Available at: https://medium.com/nerd-for-tech/evaluating-performance-regression-d4ef40986402 (Accessed: 26 August 2021)
+
 Raj, A. (2020) Unlocking the True Power of Support Vector Regression. Available at: https://towardsdatascience.com/unlocking-the-true-power-of-support-vector-regression-847fd123a4a0 (Accessed: 25 August 2021)
 
 Ray, S. (2015) 7 Regression Techniques you should know. Available at: https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/?utm_source=blog&utm_medium=RideandLassoRegressionarticle (Accessed: 25 August 2021)
