@@ -1,4 +1,4 @@
-# Regression
+# Regression Models
 Overview of common and advanced regression techniques and libraries. Split into:
 
 - Linear Regression
