@@ -6,9 +6,7 @@ Overview of common and advanced regression techniques and libraries. Split into:
 - Support Vector Regression
 - Random Forest (Decision Tree) Regression
 - Stepwise Regression
-- Ridge Regression
-- Lasso Regression
-- ElasticNet Regression
+- Penalized (Ridge, Lasso, Elastic Net) Regression
 
 ## Linear Regression
 Linear regression, at it’s core, is a way of calculating the relationship between two variables. It assumes that there’s a direct correlation between the two variables, and that this relationship can be represented with a straight line. Linear regression creates a linear mathematical relationships between these two variables. It enables calculation predicting the dependent variable if the dependent variable is known.
@@ -44,6 +42,31 @@ Decision trees have an advantage that it is easy to understand, lesser data clea
 ## Random Forest Regression
 Random Forest is also a “Tree”-based algorithm that uses the qualities of multiple Decision Trees for making decisions. The term ‘Random’ is due to the fact that this algorithm is a forest of ‘Randomly created Decision Trees’. The Decision Tree algorithm has a major disadvantage in that it causes over-fitting. This problem can be limited by implementing the Random Forest Regression in place of the Decision Tree Regression. To summarize in short, The Random Forest Algorithm merges the output of multiple Decision Trees to generate the final output.
 
+## Penalized Regression
+The standard linear model (or the ordinary least squares method) performs poorly in a situation, where you have a large multivariate data set containing a number of variables superior to the number of samples. A better alternative is the penalized regression allowing to create a linear regression model that is penalized, for having too many variables in the model, by adding a constraint in the equation. This is also known as shrinkage or regularization methods. The consequence of imposing this penalty, is to reduce (i.e. shrink) the coefficient values towards zero. This allows the less contributive variables to have a coefficient close to zero or equal zero. Note that, the shrinkage requires the selection of a tuning parameter (lambda) that determines the amount of shrinkage.
+
+Methods:
+
+- Ridge Regression
+- LASSO Regression
+- Elastic Net Regression
+
+Generally, lasso might perform better in a situation where some of the predictors have large coefficients, and the remaining predictors have very small coefficients. Ridge regression will perform better when the outcome is a function of many predictors, all with coefficients of roughly equal size. Cross-validation methods can be used for identifying which of these two techniques is better on a particular data set.
+
+## Ridge Regression
+Ridge regression shrinks the regression coefficients, so that variables, with minor contribution to the outcome, have their coefficients close to zero. The shrinkage of the coefficients is achieved by penalizing the regression model with a penalty term called L2-norm, which is the sum of the squared coefficients. The amount of the penalty can be fine-tuned using a constant called lambda (λ). Selecting a good value for λ is critical. When λ=0, the penalty term has no effect, and ridge regression will produce the classical least square coefficients. However, as λ increases to infinite, the impact of the shrinkage penalty grows, and the ridge regression coefficients will get close zero. Note that, in contrast to the ordinary least square regression, ridge regression is highly affected by the scale of the predictors. Therefore, it is better to standardize (i.e., scale) the predictors before applying the ridge regression, so that all the predictors are on the same scale. Ridge regression shrinks the coefficients towards zero, but it will not set any of them exactly to zero. The lasso regression is an alternative that overcomes this drawback. Ridge regression will perform better when the outcome is a function of many predictors, all with coefficients of roughly equal size.
+
+- Advantage: it still performs well, compared to the ordinary least square method, in a situation where you have a large multivariate data with the number of predictors (p) larger than the number of observations (n).
+- Disadvantage: it will include all the predictors in the final model, unlike the stepwise regression methods, which will generally select models that involve a reduced set of variables.
+
+## Lasso Regression
+Lasso stands for Least Absolute Shrinkage and Selection Operator. It shrinks the regression coefficients toward zero by penalizing the regression model with a penalty term called L1-norm, which is the sum of the absolute coefficients. In the case of lasso regression, the penalty has the effect of forcing some of the coefficient estimates, with a minor contribution to the model, to be exactly equal to zero. This means that, lasso can be also seen as an alternative to the subset selection methods for performing variable selection in order to reduce the complexity of the model. As in ridge regression, selecting a good value of λ for the lasso is critical. Generally, lasso might perform better in a situation where some of the predictors have large coefficients, and the remaining predictors have very small coefficients.
+
+- Advantage (over Ridge): it produces simpler and more interpretable models that incorporate only a reduced set of the predictors. 
+- However, neither ridge regression nor the lasso will universally dominate the other.
+
+## Elastic Net Regression
+Elastic Net produces a regression model that is penalized with both the L1-norm and L2-norm. The consequence of this is to effectively shrink coefficients (like in ridge regression) and to set some coefficients to zero (as in LASSO).
 
 ## References
 
@@ -94,6 +117,8 @@ Sethi, A. (2020) Support Vector Regression Tutorial for Machine Learning. Availa
 Sharp, T. (2020) An Introduction to Support Vector Regression. Available at: https://towardsdatascience.com/an-introduction-to-support-vector-regression-svr-a3ebc1672c2 (Accessed: 26 August 2021)
 
 Statistics Solutions (2021) Assumptions of Linear Regression. Available at: https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/assumptions-of-linear-regression/?__cf_chl_jschl_tk__=pmd_bNrV..YslZ4pi_s86JwRjx.e9G4YNcqvTDBQakCk8kI-1629803479-0-gqNtZGzNAjujcnBszQiR (Accessed: 24 August 2021)
+
+STHDA (2018) Penalized Regression Essentials: Ridge, Lasso & Elastic Net. Available at: http://www.sthda.com/english/articles/37-model-selection-essentials-in-r/153-penalized-regression-essentials-ridge-lasso-elastic-net/ (Accessed: 26 August 2021)
 
 Tan, T. (2020) Back to Basics: Assumptions of Common Machine Learning Models. Available at: https://towardsdatascience.com/back-to-basics-assumptions-of-common-machine-learning-models-e43c02325535 (Accessed: 25 August 2021)
 
