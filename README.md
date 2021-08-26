@@ -5,8 +5,7 @@ Overview of common and advanced regression techniques and libraries. Split into:
 - Polynomial Regression
 - Support Vector Regression
 - Random Forest (Decision Tree) Regression
-- Stepwise Regression
-- Regularized/Penalized (Ridge, Lasso, Elastic Net) Regression
+- Regularized/Penalized Regression
 
 ## Linear Regression
 Linear regression, at it’s core, is a way of calculating the relationship between two variables. It assumes that there’s a direct correlation between the two variables, and that this relationship can be represented with a straight line. Linear regression creates a linear mathematical relationships between these two variables. It enables calculation predicting the dependent variable if the dependent variable is known.
@@ -50,6 +49,7 @@ Methods:
 - Ridge Regression
 - LASSO Regression
 - Elastic Net Regression
+- Partial Least Squares Regression
 
 Generally, lasso might perform better in a situation where some of the predictors have large coefficients, and the remaining predictors have very small coefficients. Ridge regression will perform better when the outcome is a function of many predictors, all with coefficients of roughly equal size. Cross-validation methods can be used for identifying which of these two techniques is better on a particular data set.
 
