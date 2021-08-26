@@ -59,7 +59,7 @@ Ridge regression shrinks the regression coefficients, so that variables, with mi
 - Advantage: it still performs well, compared to the ordinary least square method, in a situation where you have a large multivariate data with the number of predictors (p) larger than the number of observations (n).
 - Disadvantage: it will include all the predictors in the final model, unlike the stepwise regression methods, which will generally select models that involve a reduced set of variables.
 
-## Lasso Regression
+## LASSO Regression
 Lasso stands for Least Absolute Shrinkage and Selection Operator. It shrinks the regression coefficients toward zero by penalizing the regression model with a penalty term called L1-norm, which is the sum of the absolute coefficients. In the case of lasso regression, the penalty has the effect of forcing some of the coefficient estimates, with a minor contribution to the model, to be exactly equal to zero. This means that, lasso can be also seen as an alternative to the subset selection methods for performing variable selection in order to reduce the complexity of the model. As in ridge regression, selecting a good value of λ for the lasso is critical. Generally, lasso might perform better in a situation where some of the predictors have large coefficients, and the remaining predictors have very small coefficients.
 
 - Advantage (over Ridge): it produces simpler and more interpretable models that incorporate only a reduced set of the predictors. 
