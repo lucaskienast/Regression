@@ -6,7 +6,7 @@ Overview of common and advanced regression techniques and libraries. Split into:
 - Support Vector Regression
 - Random Forest (Decision Tree) Regression
 - Regularized/Penalized Regression
-- Multi Target Regression
+- Multioutput Regression
 
 ## Linear Regression
 Linear regression, at it’s core, is a way of calculating the relationship between two variables. It assumes that there’s a direct correlation between the two variables, and that this relationship can be represented with a straight line. Linear regression creates a linear mathematical relationships between these two variables. It enables calculation predicting the dependent variable if the dependent variable is known.
@@ -68,8 +68,8 @@ Lasso stands for Least Absolute Shrinkage and Selection Operator. It shrinks the
 ## Elastic Net Regression
 Elastic Net produces a regression model that is penalized with both the L1-norm and L2-norm. The consequence of this is to effectively shrink coefficients (like in ridge regression) and to set some coefficients to zero (as in LASSO).
 
-## Multi Target Regression
-Multi Target (or Multi Output) regression are regression problems that involve predicting two or more numerical values given an input example. An example might be to predict a coordinate given an input, e.g. predicting x and y values. Another example would be multi-step time series forecasting that involves predicting multiple future time series of a given variable. Many machine learning algorithms are designed for predicting a single numeric value, referred to simply as regression. Some algorithms do support multioutput regression inherently, such as linear regression and decision trees. There are also special workaround models that can be used to wrap and use those algorithms that do not natively support predicting multiple outputs.
+## Multioutput Regression
+Multioutput (or Multitarget) regression are regression problems that involve predicting two or more numerical values given an input example. An example might be to predict a coordinate given an input, e.g. predicting x and y values. Another example would be multi-step time series forecasting that involves predicting multiple future time series of a given variable. Many machine learning algorithms are designed for predicting a single numeric value, referred to simply as regression. Some algorithms do support multioutput regression inherently, such as linear regression and decision trees. There are also special workaround models that can be used to wrap and use those algorithms that do not natively support predicting multiple outputs.
 
 ## References
 
