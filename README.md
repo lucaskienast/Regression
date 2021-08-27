@@ -146,4 +146,8 @@ STHDA (2018) Penalized Regression Essentials: Ridge, Lasso & Elastic Net. Availa
 
 Tan, T. (2020) Back to Basics: Assumptions of Common Machine Learning Models. Available at: https://towardsdatascience.com/back-to-basics-assumptions-of-common-machine-learning-models-e43c02325535 (Accessed: 25 August 2021)
 
+Verma, S. (2021) Linear Regression from scratch in Python. Available at: https://medium.com/analytics-vidhya/linear-regression-from-scratch-in-python-b6501f91c82d (Accessed: 27 August 2021)
+
+Verma, S. (2021) Polynomial Regression From Scratch in Python. Available at: https://towardsdatascience.com/polynomial-regression-in-python-b69ab7df6105 (Accessed:27 August 2021)
+
 365 Careers (2021) The Data Science Course 2021: Complete Data Science Bootcamp. Available at: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/ (Accessed: 24 August 2021)
