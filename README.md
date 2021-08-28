@@ -88,6 +88,8 @@ Alam, M. (2021) A checklist for linear regression. Available at: https://towards
 
 Allison, P. (2012) When Can You Safely Ignore Multicollinearity? Available at: https://statisticalhorizons.com/multicollinearity (Accessed: 24 August 2021)
 
+Anderson, P (2018) The Gauss-Markov Theorem: Study Guide. Available at: https://www.statisticshowto.com/gauss-markov-theorem-assumptions/ (Accessed: 28 August 2021)
+
 Bex, T. (2021) Intro to Regularization With Ridge And Lasso Regression with Sklearn. Available at: https://towardsdatascience.com/intro-to-regularization-with-ridge-and-lasso-regression-with-sklearn-edcf4c117b7a (Accessed: 26 August 2021)
 
 Bhandari, A. (2020) Feature Scaling for Machine Learning: Understanding the Differnece Between Normalization vs. Standardization. Available at: https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/ (Accessed: 24 August 2021)
