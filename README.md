@@ -1,5 +1,5 @@
 # Regression Models (Supervised Learning)
-Overview of common and advanced regression techniques and libraries. Split into:
+Overview of theory and common techniques for regression problems, split into:
 
 - Linear Regression
 - Polynomial Regression
