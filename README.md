@@ -1,4 +1,4 @@
-# Regression Models
+# Regression Models (Supervised Learning)
 Overview of common and advanced regression techniques and libraries. Split into:
 
 - Linear Regression
